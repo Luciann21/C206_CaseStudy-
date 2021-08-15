@@ -1,0 +1,48 @@
+public class Student {
+
+	private String sID;
+	private String sName;
+	private String sClass;
+	private String pName;
+	private String pNumber;
+	
+	public Student(String sID, String sName, String sClass, String pName, String pNumber) {
+		this.sID = sID;
+		this.sName = sName;
+		this.sClass = sClass;
+		this.pName = pName;
+		this.pNumber = pNumber;
+	}
+
+	public String getsID() {
+		return sID;
+	}
+
+	public String getsName() {
+		return sName;
+	}
+
+	public String getsClass() {
+		return sClass;
+	}
+	
+	public void setsClass(String sClass) {
+		this.sClass = sClass;
+	}
+
+	public String getpName() {
+		return pName;
+	}
+
+	public String getpNumber() {
+		return pNumber;
+	}		
+	
+	public void setpNumber(String pNumber) {
+		this.pNumber = pNumber;
+	}
+	
+}
+
+// Testing
+
